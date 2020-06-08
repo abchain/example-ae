@@ -9,10 +9,11 @@ import (
 	"hyperledger.abchain.org/applications/asset/wallet"
 	simplewallet "hyperledger.abchain.org/applications/asset/wallet/simple"
 	apputil "hyperledger.abchain.org/applications/util"
-	"hyperledger.abchain.org/cases/ae/chaincode/cc"
 	"hyperledger.abchain.org/chaincode/lib/caller"
 	"hyperledger.abchain.org/client"
 	"hyperledger.abchain.org/core/config"
+
+	"hyperledger.abchain.org/example/ae/chaincode/cc"
 )
 
 const (

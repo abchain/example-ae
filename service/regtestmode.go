@@ -2,10 +2,10 @@ package service
 
 import (
 	"hyperledger.abchain.org/applications/util/blockchain"
-	"hyperledger.abchain.org/cases/ae/chaincode/cc"
 	evt "hyperledger.abchain.org/chaincode/lib/events"
 	txhandle "hyperledger.abchain.org/chaincode/lib/txhandle"
 	"hyperledger.abchain.org/client/local"
+	"hyperledger.abchain.org/example/ae/chaincode/cc"
 )
 
 func init() {

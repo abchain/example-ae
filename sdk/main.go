@@ -1,7 +1,7 @@
 package main
 
 import (
-	"hyperledger.abchain.org/cases/ae/service"
+	"hyperledger.abchain.org/example/ae/service"
 )
 
 func main() {

@@ -11,10 +11,11 @@ import (
 	"hyperledger.abchain.org/applications/supervise/registar"
 	"hyperledger.abchain.org/applications/util"
 	"hyperledger.abchain.org/applications/util/blockchain"
-	"hyperledger.abchain.org/cases/ae/chaincode/cc"
+	"hyperledger.abchain.org/example/ae/chaincode/cc"
 	"strings"
 )
 
+//URIPrefix define the prefix of API
 var URIPrefix = "/api/v1/"
 
 func notFound(w web.ResponseWriter, r *web.Request) {

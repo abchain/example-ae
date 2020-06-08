@@ -26,6 +26,7 @@ service:
     port: 7080
 
 grpc:
+    # 指定一个对应的区块链平台，需要编译相应的adapter模块
     # fabric: "abchain"
     # gRPC Server 地址
     server: "localhost:8000"
