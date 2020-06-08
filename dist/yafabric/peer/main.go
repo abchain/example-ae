@@ -1,12 +1,12 @@
 package main
 
 import (
-	node "github.com/abchain/fabric/node/start"
-	"hyperledger.abchain.org/cases/ae/chaincode/cc"
-	"hyperledger.abchain.org/chaincode/impl/yafabric"
-
 	"github.com/abchain/fabric/core/embedded_chaincode/api"
 	"github.com/abchain/fabric/node/legacy"
+	node "github.com/abchain/fabric/node/start"
+
+	"hyperledger.abchain.org/cases/ae/chaincode/cc"
+	"hyperledger.abchain.org/chaincode/impl/yafabric"
 )
 
 func main() {
