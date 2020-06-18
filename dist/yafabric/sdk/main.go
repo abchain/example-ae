@@ -1,8 +1,8 @@
 package main
 
 import (
-	"hyperledger.abchain.org/cases/ae/service"
-	_ "hyperledger.abchain.org/adapter/yafabric"
+	_ "hyperledger.abchain.org/adapter/yafabric/client"
+	"hyperledger.abchain.org/example/ae/service"
 )
 
 func main() {
